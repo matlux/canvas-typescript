@@ -29,3 +29,9 @@ redrawLouis()
 
 line(0, 5000, 300, 300,'green')
 line(300, 200, 4000, 300,'purple')
+
+
+
+for(let step=20; step <= 450; step+=3){
+    line(0, 500, step, 300,'red')    
+} 
