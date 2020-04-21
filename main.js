@@ -42,10 +42,8 @@ line(50, 60, 700, 800,'red')
 
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
-var output2 = document.getElementById("demo2");
 output.innerHTML = slider.value;
 
 slider.oninput = function() {
     output.innerHTML = slider.value;
-    output2.innerHTML = slider.value;
 }
