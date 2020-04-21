@@ -39,3 +39,11 @@ line(0, 0, 490, 490,'blue')
 line(490, 200, 0, 490,'purple')
 
 line(50, 60, 700, 800,'red')
+
+$('input[type="range"]').rangeslider({
+    polyfill: false
+  });
+  
+  $('#relationship-status-slider').on('change input', function() {
+          $('#relationship-status-output').text($(this).val());
+      });
