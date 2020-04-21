@@ -20,18 +20,22 @@ var line = function(x1, y1, x2, y2, colour){
 }
 
 var redrawLouis = function() {
-    line(200, 0, 200, 490,'yellow')    
-    line(0, 200, 100, 200,'red')
+    line(0, 490, 490, 0,'blue')    
+    line(0, 200, 490, 490,'purple')
 }
  
 clearCanvas()
 redrawLouis()
 
-line(0, 5000, 300, 300,'green')
-line(300, 200, 4000, 300,'purple')
-
-
-
 for(let step=20; step <= 450; step+=3){
     line(0, 500, step, 300,'red')    
 } 
+
+for(let step=20; step <= 450; step+=3){
+    line(450, 500, step, 300,'red')    
+}
+
+line(0, 0, 490, 490,'blue')
+line(490, 200, 0, 490,'purple')
+
+line(50, 60, 700, 800,'red')
