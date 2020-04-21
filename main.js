@@ -1,4 +1,4 @@
-var canvas = document.getElementById('canvas');
+var canvas = document.getElementById('louiscanvas');
 var context = canvas.getContext("2d");
 context.lineCap = 'round';
 context.lineJoin = 'round';
